@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=devices-widht, initial-scale=1.0">
+    <title>Form Pemesanan Barang</title>
+</head>
+<body>
+    <table align="center">
+        <thead>
+            <tr style="height:100px">
+                    <th colspan="3" >
+                        <a class="navlink-active"href="#"> Home | </a>
+                        <a class="navlink-active"href="#"> Generate link |  </a>
+                        <a class="navlink-active"href="#"> Transaction History |</a>
+                        <a class="navlink-active"href="#">  Policy | </a>
+                        <a class="navlink-active"href="#"> Logout </a>
+                    </th>
+            </tr>
+        </thead>
+        <br><br><br>
+        <tbody>
+            <tr>
+                <th rowspan="12" valign="top"><img src="https://www.cnet.com/a/img/resize/af0b56bbac3ef1c46689f20b88b3a03d988def55/hub/2017/08/14/ec0fa893-faf2-46c3-8933-6898773804ba/apple-macbook-air-2017-05.jpg?auto=webp&width=768" alt="macbook" width="200px" height="150px"></th>
+                <td><label for="title">Title Here : MacBook Air $800</label></td>
+            </tr>
+            <tr>
+                <td rowspan="3" valign="top"><label for="Transaction">Description : Year : 2009</label></td>
+            </tr>
+            <tr>
+                <td><p>Model : </p></td>
+            </tr>
+            <tr>
+                <td><p>Condition : Mint</p></td>
+            </tr>
+            <tr>
+                <td colspan="2"><p>Total Amount : $800</p></td>
+            </tr>
+            <tr>
+                <td><label for="payment">Payment type :</label></td>
+                <td>
+                    <select>
+                        <option>Visa Debit</option>
+                        <option>Credit Card</option>
+                        <option>Cash On Delivery</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="holder">Account Holder :</label></td>
+                <td><input type="text" id="holder"></td>
+            </tr>
+            <tr>
+                <td rowspan="3" valign="top"><label for="account">Account No :</label></td>
+                <td><input type="number" id="account"></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" id="mobile">
+                    <label for="mobile"style="color:green">Sent to Mobile Phone</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" id="email">
+                    <label for="email"style="color:green">Sent to email</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="phone">Send To Mobile Phone :</label></td>
+                <td><input type="number" id="phone"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Send To email :</label></td>
+                <td><input type="email" id="email"></td>
+            </tr>
+            <tr>
+                <td colspan="3" align="center" height="100px"><button type="submit" align="center">Pay using QuidLink</button></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+<hr>
+</html>
